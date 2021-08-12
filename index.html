@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>The Avengers - Watch Movies, Series</title>
+
+    <!-- Favicons -->
+    <link href="Favicon.png" rel="icon">
+    <link href="Favicon.png" rel="apple-touch-icon">
+
+    <!-- Bootstrap CSS --->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--- Swiper JS ------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+        integrity="sha256-DBYdrj7BxKM3slMeqBVWX2otx7x4eqoHRJCsSDJ0Nxw=" crossorigin="anonymous" />
+
+    <!-- Icons --->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!------- AOS Library -------->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            style="margin: 20px 15px 0px 0px;padding: 0.05% 0% 0% 0.5%;">&times;</a>
+        <br />
+        <br />
+        <a href="#UpcomingMovies">Coming Next</a>
+        <a href="#TopRatedMovies">Top Movies</a>
+        <a href="#LatestMovies">Latest Movies</a>
+        <a href="#AllMovies">All Avengers Movies</a>
+    </div>
+    <div id="main">
+        <div id="bars">
+            <span onclick="openNav()" id="toggle">&#9776;</span>
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+        <!------ Image Slider ------>
+        <div class="avenger-container">
+            <div class="row">
+                <div class="col-md-5 pr-md-0">
+                    <div class="img-container">
+                        <div class="img-wrapper">
+                            <img src="./Images/Slider/Endgame_SliderImage.jpg" alt="Endgame" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./Images/Slider/CivilWar_SliderImage.jpg" alt="CivilWar" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./Images/Slider/Thor_SliderImage.jpg" alt="" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./Images/Slider/CapMarvel_SliderImage.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                            <!----------- Endgame ------------->
+                            <div class="swiper-slide p-md-5 p-3">
+                                <div class="name">
+                                    <div class="title">
+                                        <span>Avengers : Endgame</span>
+                                    </div>
+                                </div>
+                                <div class="overview">
+                                    <div class="title">
+                                        <div class="text-wrapper">
+                                            <span>2 hr 54 min <i class='bx bxs-circle'></i> 2019 <i
+                                                    class='bx bxs-circle'></i> Superhero</span>
+                                        </div>
+                                    </div>
+                                    <div class="text-wrapper">
+                                        <span>
+                                            <p class="description">
+                                                After the devastating events of the Infinity War, the Avengers assemble
+                                                once more to reverse
+                                                Thano's actions and restore balance to the universe.
+                                            </p>
+                                            <p class="description"><span style="color: #fff;">Cast :</span>
+                                                Robert Downey, Chris Evans, Chris Hemsworth, Scarlett Johanson, ...
+                                            </p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!----------- Civil War ------------->
+                            <div class="swiper-slide p-md-5 p-3">
+                                <div class="name">
+                                    <div class="title">
+                                        <span>Captain America : Civil War</span>
+                                    </div>
+                                </div>
+                                <div class="overview">
+                                    <div class="title">
+                                        <div class="text-wrapper">
+                                            <span>2 hr 21 min <i class='bx bxs-circle'></i> 2016 <i
+                                                    class='bx bxs-circle'></i> Superhero</span>
+                                        </div>
+                                    </div>
+                                    <div class="text-wrapper">
+                                        <span>
+                                            <p class="description">
+                                                The government's decision to push a Hero Registration Act to regulate
+                                                heroes creates a rift
+                                                among the Avengers and other heroes.
+                                            </p>
+                                            <p class="description"><span style="color: #fff;">Cast :</span>
+                                                Robert Downey, Chris Evans
+                                            </p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!----------- Thor : Ragnarok ------------->
+                            <div class="swiper-slide p-md-5 p-3">
+                                <div class="name">
+                                    <div class="title">
+                                        <span>Thor : Ragnarok</span>
+                                    </div>
+                                </div>
+                                <div class="overview">
+                                    <div class="title">
+                                        <div class="text-wrapper">
+                                            <span>2 hr 10 min <i class='bx bxs-circle'></i> 2017 <i
+                                                    class='bx bxs-circle'></i> Superhero</span>
+                                        </div>
+                                    </div>
+                                    <div class="text-wrapper">
+                                        <span>
+                                            <p class="description">
+                                                Deprived of his mighty hammer Mjolnir, Thor must escape the other side
+                                                of the universe to save
+                                                his home, Asgard, from Hela, the goddess of death.
+                                            </p>
+                                            <p class="description"><span style="color: #fff;">Cast :</span>
+                                                Chris Hemsworth, Tom Hiddleston, Mark Ruffalo
+                                            </p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!----------- Captain Marvel ------------->
+                            <div class="swiper-slide p-md-5 p-3">
+                                <div class="name">
+                                    <div class="title">
+                                        <span>Captain Marvel</span>
+                                    </div>
+                                </div>
+                                <div class="overview">
+                                    <div class="title">
+                                        <div class="text-wrapper">
+                                            <span>2 hr 4 min <i class='bx bxs-circle'></i> 2019 <i
+                                                    class='bx bxs-circle'></i> Superhero</span>
+                                        </div>
+                                    </div>
+                                    <div class="text-wrapper">
+                                        <span>
+                                            <p class="description">
+                                                Carol Danvers becomes one of the universe’s most powerful heroes when
+                                                Earth is caught in the
+                                                middle of a galactic war between two alien races.
+                                            </p>
+                                            <p class="description"><span style="color: #fff;">Cast :</span>
+                                                Brie Larson, Samuel L. Jackson
+                                            </p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Upcoming movies -->
+        <section id="UpcomingMovies">
+            <br />
+            <div class="Container">
+                <h2>Upcoming Movies & Series</h2>
+                <div class="row Movies">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Falcon & Winter Soldier/index.html"><img loading="lazy"
+                                        src="Images/Falcon&WinterSoldier.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Loki/index.html"><img loading="lazy"
+                                        src="Images/Loki.jpg"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Black Widow/index.html"><img loading="lazy"
+                                        src="Images/BlackWidow.jpg"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- upcoming movies -->
+
+        <!-- top rated movies -->
+        <section id="TopRatedMovies">
+            <br />
+            <div class="Container">
+                <h2>Top Rated Movies</h2>
+                <div class="row Movies">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Black Panther/index.html"><img loading="lazy"
+                                        src="Images/BlackPanther.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Iron Man/index.html"><img loading="lazy"
+                                        src="Images/IronMan1.jpg"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/EndGame/index.html"><img loading="lazy"
+                                        src="Images/Endgame.jpg"></a>
+                            </div>
+                            <div class="col-6"><a href="./Movies/SpiderMan Far From Home/index.html"><img loading="lazy"
+                                        src="Images/FarFromHome.jpg"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/GOG1/index.html"><img loading="lazy"
+                                        src="Images/GOG1.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Ragnarok/index.html"><img loading="lazy"
+                                        src="Images/Ragnarok.jpg"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Spiderman HomeComing/index.html"><img loading="lazy"
+                                        src="Images/Homecoming.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Doctor Strange/index.html"><img loading="lazy"
+                                        src="Images/DoctorStrange.jpg"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- top rated movies -->
+
+        <!-- latest movies -->
+        <section id="LatestMovies">
+            <br />
+            <div class="Container">
+                <h2>Latest Movies & Series</h2>
+                <div class="row Movies">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Falcon & Winter Soldier/index.html"><img loading="lazy"
+                                        src="Images/Falcon&WinterSoldier.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Wanda Vision/index.html"><img loading="lazy"
+                                        src="Images/WandaVision.jpeg"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/SpiderMan Far From Home/index.html"><img loading="lazy"
+                                        src="Images/FarFromHome.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/EndGame/index.html"><img loading="lazy"
+                                        src="Images/Endgame.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Captain Marvel/index.html"><img loading="lazy"
+                                        src="Images/CapMarvel.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Antman & Wasp/index.html"><img loading="lazy"
+                                        src="Images/Ant&Wasp.jpg"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Infinity War/index.html"><img loading="lazy"
+                                        src="Images/InfinityWar.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Black Panther/index.html"><img loading="lazy"
+                                        src="Images/BlackPanther.jpg"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- latest movies -->
+
+        <!-- All Movies -->
+        <section id="AllMovies">
+            <br />
+            <div class="Container">
+                <h2>All Avenger Movies</h2>
+                <div class="row Movies">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Iron Man/index.html"><img loading="lazy"
+                                        src="Images/IronMan1.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Hulk/index.html"><img loading="lazy"
+                                        src="Images/Hulk.jpg"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/IronMan2/index.html"><img loading="lazy"
+                                        src="Images/IronMan2.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Thor/index.html"><img loading="lazy"
+                                        src="Images/Thor1.jpg"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Captain America1/index.html"><img loading="lazy"
+                                        src="Images/CapAmerica1.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/The Avengers/index.html"><img loading="lazy"
+                                        src="Images/Avengers.jpg"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/IronMan3/index.html"><img loading="lazy"
+                                        src="Images/IronMan3.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Thor Dark World/index.html"><img loading="lazy"
+                                        src="Images/ThorDarkWorld.jpg"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row Movies">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Captain America Winter Soldier/index.html"><img
+                                        loading="lazy" src="Images/WinterSoldier.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/GOG1/index.html"><img loading="lazy"
+                                        src="Images/GOG1.jpg"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Age of Ultron/index.html"><img loading="lazy"
+                                        src="Images/AgeOfUltron.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/AntMan/index.html"><img loading="lazy"
+                                        src="Images/Ant-man.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Civil War/index.html"><img loading="lazy"
+                                        src="Images/CivilWar.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Doctor Strange/index.html"><img loading="lazy"
+                                        src="Images/DoctorStrange.jpg"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/GOG2/index.html"><img loading="lazy"
+                                        src="Images/GOG2.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Spiderman HomeComing/index.html"><img loading="lazy"
+                                        src="Images/Homecoming.jpg"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row Movies">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Ragnarok/index.html"><img loading="lazy"
+                                        src="Images/Ragnarok.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Black Panther/index.html"><img loading="lazy"
+                                        src="Images/BlackPanther.jpg"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Infinity War/index.html"><img loading="lazy"
+                                        src="Images/InfinityWar.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/Antman & Wasp/index.html"><img loading="lazy"
+                                        src="Images/Ant&Wasp.jpg"></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/Captain Marvel/index.html"><img loading="lazy"
+                                        src="Images/CapMarvel.jpg"></a></div>
+                            <div class="col-6"><a href="./Movies/EndGame/index.html"><img loading="lazy"
+                                        src="Images/Endgame.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-6"><a href="./Movies/SpiderMan Far From Home/index.html"><img loading="lazy"
+                                        src="Images/FarFromHome.jpg"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section-->
+            <!-- All Movies -->
+
+    </div>
+    <br />
+    <br />
+    <br />
+    <!------ Footer -------->
+    <div data-aos="zoom-in" data-aos-duration="1000" class='social_icon' style="text-align: center;">
+
+        <div class='icons'><a target="_blank" href="https://twitter.com/Helly_829"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <div class='icons'><a target="_blank" href="https://www.instagram.com/helly_.81/"><i
+                    class='bx bxl-instagram'></i></a>
+        </div>
+        <div class='icons'><a target="_blank" href="https://www.linkedin.com/in/ihellybprajapati829"><i
+                    class='bx bxl-linkedin'></i></a></div>
+        <div class='icons'><a target="_blank" href="mailto: ihellybprajapati829@gmail.com"><i
+                    class='bx bxl-google'></i></a>
+        </div>
+        <div class='icons'><a target="_blank" href="https://github.com/ihellybprajapati829"><i
+                    class='bx bxl-github'></i></a>
+        </div>
+        <div class='icons'><a target="_blank" href="https://www.behance.net/hellyprajapati1"><i
+                    class='bx bxl-behance'></i></a>
+        </div>
+    </div>
+    <hr id="last_line" color="#fff" />
+    <br />
+    <div class="copyright" style="text-align: center;font-size: 16px;color: #fff;">© Designed & Developed By
+        <a href="#" style="color: rgba(194, 194, 194, 0.836);">Helly Prajapati</a>
+    </div>
+    <br />
+    <br />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"
+        integrity="sha256-4sETKhh3aSyi6NRiA+qunPaTawqSMDQca/xLWu27Hg4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
