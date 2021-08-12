@@ -13,6 +13,5 @@
 - Swiper JS
 
 ### Hosting URL : https://ihellybprajapati829.github.io/Avengers/
-https://avengers-watchmovies.netlify.app/
 
 
