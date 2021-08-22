@@ -26,6 +26,16 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -39,6 +49,7 @@
         <a href="#TopRatedMovies">Top Movies</a>
         <a href="#LatestMovies">Latest Movies</a>
         <a href="#AllMovies">All Avengers Movies</a>
+        <a href="#Characters">Characters</a>
     </div>
     <div id="main">
         <div id="bars">
@@ -319,7 +330,8 @@
                             <div class="col-6"><a href="./Movies/Iron Man/index.html"><img loading="lazy"
                                         src="Images/IronMan1.jpg"></a></div>
                             <div class="col-6"><a href="./Movies/Hulk/index.html"><img loading="lazy"
-                                        src="Images/Hulk.jpg"></div>
+                                        src="Images/Hulk.jpg">
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
@@ -354,7 +366,8 @@
                             <div class="col-6"><a href="./Movies/Captain America Winter Soldier/index.html"><img
                                         loading="lazy" src="Images/WinterSoldier.jpg"></a></div>
                             <div class="col-6"><a href="./Movies/GOG1/index.html"><img loading="lazy"
-                                        src="Images/GOG1.jpg"></div>
+                                        src="Images/GOG1.jpg">
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
@@ -420,6 +433,133 @@
             </div>
             </section-->
             <!-- All Movies -->
+
+            <!--- Characters --->
+            <section id="Characters">
+                <br />
+                <div class="Carousel">
+                    <h2>Characters</h2>
+                    <div class="slick-list" id="slick-list">
+                        <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev"
+                            onclick="app.processingButton(event)">
+                            <i class='bx bx-chevron-left'></i>
+                        </button>
+                        <div class="slick-track" id="track">
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/IronMan.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/CaptainAmerica.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/Thor.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/BlackWidow.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/Hulk.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/Hawkeye.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/BlackPanther.png">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/Falcon.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/Spiderman.png">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/Bucky.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/CapMarvel.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/DoctorStrange.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/Wanda.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/Vision.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="slick">
+                                <div>
+                                    <picture>
+                                        <img loading="lazy" src="Images/Characters/Antman.jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="slick-arrow slick-next" id="button-next" data-button="button-next"
+                            onclick="app.processingButton(event)">
+                            <i class='bx bx-chevron-right'></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!--- Characters --->
+
 
     </div>
     <br />
