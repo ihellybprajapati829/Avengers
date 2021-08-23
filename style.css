@@ -9,6 +9,20 @@ body {
   background-color: #0c111b;
 }
 
+#Logo img {
+  width: 290px;
+  height: auto;
+  margin: 0.3% 4% 0% 4%;
+}
+
+@media (max-width: 767px) {
+  #Logo img {
+    width: 200px;
+    height: auto;
+    margin: 3.3% 4% 0% 4%;
+  }
+}
+
 /*=========Navbar==========*/
 .sidenav {
   height: 100%;
